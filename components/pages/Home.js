@@ -5,7 +5,7 @@ function Home () {
         <div>
             <h1>Home Page</h1>
             <p>
-                Here will go  some info about me.
+                Here will go  some info about what this page is.
                 Yada yada yada 
                 Yada de do.
             </p>
