@@ -1,4 +1,6 @@
 import React from "react";
+import {Link, Route, Routes} from "react-router-dom";
+import About from "./About";
 
 const Contact = () => (
   <div>
@@ -14,6 +16,15 @@ const Contact = () => (
       conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
       condimentum magna, quis tempor nulla.
     </p>
+    <Link to="learn" role="button" className="btn btn-link">
+        GitHub
+      </Link>
+      <Link to="contact" role="button" className="btn btn-link">
+        LinkedIn
+      </Link>
+      <Routes>
+        <Route path="about" element={<About />} role="button" className="btn btn-link"/>
+      </Routes>
   </div>
 );
 

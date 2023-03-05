@@ -1,46 +1,56 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-function NavTabs(props) {
-  return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#projects"
-          onClick={() => props.handlePageChange("Projects")}
-          className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}
-        >
-          Projects
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
-  );
-}
+function NavTabs() {
+    return (
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="about"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            About
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="projects"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Projects
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="contact"
+            end
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+    );
+  }
+  
+
+  
 
 export default NavTabs;
