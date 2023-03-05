@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Projects from "./pages/Projects";
+import Projects from "./ProjectCard/Projects";
 import Contact from "./pages/Contact";
 
 class Portfolio extends Component {
