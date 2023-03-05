@@ -1,23 +1,6 @@
 {
-  "name": "react-portfolio-ryzat",
-  "version": "1.0.0",
-  "description": "A web based portfolio build around learning React.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RyzaT/react-portfolio-ryzat.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RyzaT/react-portfolio-ryzat/issues"
-  },
-  "homepage": "https://github.com/RyzaT/react-portfolio-ryzat#readme",
   "dependencies": {
+    "node": "^19.6.1",
     "react": "^18.2.0",
     "react-router-dom": "^6.8.2"
   }
