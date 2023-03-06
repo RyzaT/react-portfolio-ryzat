@@ -1,35 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import './project.json';
-// import Wrapper from "../Wrapper";
-// import Props from "./project.json";
-// import Title from "../Title";
+// import { render } from "react-dom";
+import Wrapper from "../Wrapper";
+import work from "./project.json";
+import Title from "../Title";
+// import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+// import Projects from "./components/ProjectCard/Projects";
 
-function Projects(props) {
+function ProjectCard(props) {
+  const [project, setProject] = useState(work);
+ 
   return (
-  
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={project.name} src={project.image} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Name:</strong> {project.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Occupation:</strong> {project.occupation}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Location:</strong> {project.location}
           </li>
         </ul>
       </div>
     </div>
-   
-  );
-}  
+  )}
+ 
 
-  
+    
 
-export default Projects;
+
+
+
+export default ProjectCard;
