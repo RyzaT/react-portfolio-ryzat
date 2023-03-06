@@ -11,6 +11,7 @@ import NavTabs from "./components/NavTabs";
 import Contact from "./components/pages/Contact";
 import ProjectCard from "./components/ProjectCard/Projects";
 
+
 class App extends Component {
   // const [project, setProject] = useState(work);
   useState = {
@@ -31,8 +32,8 @@ class App extends Component {
               key={project.id}
               name={project.name}
               image={project.image}
-              occupation={project.occupation}
-              location={project.location} />
+              description={project.description}
+              link={project.url} />
             )}
           </Wrapper></>
             } />

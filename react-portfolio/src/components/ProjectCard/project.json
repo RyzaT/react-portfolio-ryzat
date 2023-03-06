@@ -1,26 +1,50 @@
-[
+ [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image":
-      "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "key": 1,
+    "name": "JavaScript Coding Quiz",
+    "image": "/conponents/images/js-coding-quiz-screen.png",
+    "description": "A Timed Quiz Themed Around JavaScript",
+    "link": "href=https://github.com/RyzaT/Coding-Quiz-JScript"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "key": 2,
+    "name": "Work Day Scheduler",
+    "image": "react-portfolio/src/components/images/Daily Planner screenshot.png",
+    "description": "Daily Planner Application build around JavaScript, HTML and CSS",
+    "link": "https://github.com/RyzaT/Daily-Planner-App"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "key": 3,
+    "name": "Team Profile Generator",
+    "image": "react-portfolio/src/components/images/team-profile-gen-screen.png",
+    "description": "Team Profile Generator made with test driven develpomen",
+    "link": "https://github.com/RyzaT/Team-Profile-Generator-TDD"
+  },
+  {
+    "id": 4,
+    "key": 4,
+    "name": "University Explorer Guide",
+    "image": "react-portfolio/src/components/images/uni-explorer-screen.png",
+    "description": "A University Guide Using API's",
+    "link": "https://github.com/RyzaT/University-Explorer-Project"
+  },
+  {
+    "id": 5,
+    "key": 5,
+    "name": "Weather Dashboard",
+    "image": "react-portfolio/src/components/images/weather dash screen.png",
+    "description": "Weather Dashboard built around JavaScript, HTML and CSS",
+    "link": "https://github.com/RyzaT/Weather-Dashboard-RyzaT"
+  },
+  {
+    "id": 6,
+    "key": 6,
+    "name": "Readme Generator",
+    "image": "react-portfolio/src/components/images/Readme-Gen-Screen.png",
+    "description": "A Readme Generator built through Node",
+    "link": "https://github.com/RyzaT/Node-ReadMe-Generator"
   }
 ]
