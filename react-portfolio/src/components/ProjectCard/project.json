@@ -1,11 +1,14 @@
+ 
  [
+  {"start": "NODE_PATH=src react-scripts start"
+ },
   {
     "id": 1,
     "key": 1,
     "name": "JavaScript Coding Quiz",
     "image": "/conponents/images/js-coding-quiz-screen.png",
     "description": "A Timed Quiz Themed Around JavaScript",
-    "link": "href=https://github.com/RyzaT/Coding-Quiz-JScript"
+    "link": "https://github.com/RyzaT/Coding-Quiz-JScript"
   },
   {
     "id": 2,
