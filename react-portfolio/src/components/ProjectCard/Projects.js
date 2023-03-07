@@ -7,6 +7,7 @@ import work from "./project.json";
 import Title from "../Title";
 import project from "./project.json";
 
+
 // import {BrowserRouter as Link} from "react-router-dom";
 // import Projects from "./components/ProjectCard/Projects";
 
@@ -27,7 +28,7 @@ function ProjectCard(props) {
             <strong>{props.description}</strong>
           </li>
           <li>
-           <a href={props.link} role="button" className="btn btn-link">See Project</a>
+           <a href={props.link} role="button" className="btn btn-link">See Project </a>
           </li>
         </ul>
       </div>

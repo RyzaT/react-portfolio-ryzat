@@ -16,14 +16,15 @@ const Contact = () => (
       conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
       condimentum magna, quis tempor nulla.
     </p>
-    <Link to="learn" role="button" className="btn btn-link">
+    <Link to="https://github.com/RyzaT" role="button" className="btn btn-link">
         GitHub
       </Link>
-      <Link to="contact" role="button" className="btn btn-link">
+      <Link to="https://www.linkedin.com/in/ryan-taylor-7715b775/" role="button" className="btn btn-link">
         LinkedIn
       </Link>
       <Routes>
-        <Route path="about" element={<About />} role="button" className="btn btn-link"/>
+        <Route path="about" element={<About />} role="button" className="btn btn-link">About Me</Route>
+        About Me
       </Routes>
   </div>
 );
