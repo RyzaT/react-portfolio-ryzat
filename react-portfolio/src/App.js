@@ -11,7 +11,7 @@ import NavTabs from "./components/NavTabs";
 import Contact from "./components/pages/Contact";
 import ProjectCard from "./components/ProjectCard/Projects";
 import image from "./components/ProjectCard/project.json";
-
+// import me from "react-portfolio/src/assets";
 
 // const loader = async () => {
 //   const data = work();

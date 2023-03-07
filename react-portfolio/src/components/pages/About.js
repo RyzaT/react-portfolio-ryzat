@@ -1,16 +1,28 @@
 import React from "react";
 
+
+
+
+
 const About = () => (
   <div>
     <h1>About Page</h1>
+    <img src="react-portfolio/src/assets/images/me.jpg" alt="me image"/>
     <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
+      I am an aspiring Web Developer currently studying a bootcamp in Front-End web development.
     </p>
+    <p>Among some of the skills i have learnt are:</p>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap</li>
+    <li>Javascript</li>
+    <li>Json</li>
+    <li>React</li>
+    <li>Ajax</li>
+    <li>API”s</li>
+    <li>React</li>
+				
   </div>
-);
+)
 
 export default About;

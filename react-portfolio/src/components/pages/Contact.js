@@ -20,6 +20,6 @@ const Contact = () => (
         About Me
       </Routes>
   </div>
-);
+)
 
 export default Contact;
